@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Pushover settings
+varToken="yourPushoverAppToken"
+varUser="yourPushoverUserID"
+varTitle="Notification title"
+varMessage="Message body"
+varSeverity=""
+varURL="https://youthost.local/"
+varURLTitle="Login to host"
+
+# SENSOR SETTINGS
+# Treshhold variables declaration
+varTempWarn=60
+varTempCrit=70
+
+# OTHER SETTINGS
+# Set hostname variable
+hostname="yourhost.local"
